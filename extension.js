@@ -49,7 +49,7 @@
       botName: "MCloud_Bot",
       language: "lithuanian",
       chatLink: "https://rawgit.com/EnriqueOnAir/basicBot/master/lang/lt.json",
-      scriptLink: "https://rawgit.com/EnriqueOnAir/basicBot/master/basicBot.js",
+      scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100

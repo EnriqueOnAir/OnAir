@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "EnriqueOnAir";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "MCloud_Bot",
       language: "english",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
@@ -69,28 +69,28 @@
       cycleGuard: true,
       maximumCycletime: 10,
       voteSkip: false,
-      voteSkipLimit: 10,
-      historySkip: false,
+      voteSkipLimit: 5,
+      historySkip: true,
       timeGuard: true,
-      maximumSongLength: 10,
+      maximumSongLength: 7,
       autodisable: true,
       commandCooldown: 30,
       usercommandsEnabled: true,
       skipPosition: 3,
       skipReasons: [
-      ["theme", "This song does not fit the room theme. "],
-      ["op", "This song is on the OP list. "],
-      ["history", "This song is in the history. "],
-      ["mix", "You played a mix, which is against the rules. "],
-      ["sound", "The song you played had bad sound quality or no sound. "],
-      ["nsfw", "The song you contained was NSFW (image or sound). "],
-      ["unavailable", "The song you played was not available for some users. "]
+      ["theme", "Ši daina neatitinka kambario leidžiamos žanros. "],
+      ["op", "Ši daina yra OP sąraše. "],
+      ["history", "Ši daina buvo pastarųjų 50 dainų istorijoje. "],
+      ["mix", "Tu buvai paleidęs mix'ą, kuris pažeidžia taisykles. "],
+      ["sound", "Daina kuria buvote paleidę turėjo bloga garso kokybę arba išvis negrojo. "],
+      ["nsfw", "Daina buvo nesaugi darbui (vaizdas arba garsas). "],
+      ["unavailable", "Daina buvo nepasiekiama kai kuriems klausytojams. "]
       ],
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
       motdEnabled: false,
       motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motd: "Where words fail - music speaks.",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
@@ -105,9 +105,9 @@
       songstats: true,
       commandLiteral: "!",
       blacklists: {
-        NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
-        OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
-        BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
+        NSFW: "https://rawgit.com/EnriqueOnAir/OnAir/master/blacklists/NSFWlist.json",
+        OP: "https://rawgit.com/EnriqueOnAir/OnAir/master/blacklists/OPlist.json",
+        BANNED: "https://rawgit.com/EnriqueOnAir/OnAir/master/blacklists/BANNEDlist.json"
       }
     }));
 

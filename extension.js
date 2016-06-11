@@ -48,7 +48,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "MCloud_Bot",
       language: "lithuanian",
-      chatLink: "https://github.com/EnriqueOnAir/bscbot/blob/master/lang/lt.json",
+      chatLink: "https://rawgit.com/EnriqueOnAir/bscbot/master/lang/lt.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
